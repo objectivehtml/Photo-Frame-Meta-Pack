@@ -1,0 +1,6 @@
+.photo-frame-meta-pack img { width: 100%; margin-top: .75em; }
+.photo-frame-meta-pack th { width: 45%; padding: .5em; vertical-align: top; text-align: left; }
+.photo-frame-meta-pack table { clear: left; width: 100%; }
+.photo-frame-meta-pack .photo-frame-pill-tabs { margin-top: 1.25em; margin-bottom: .75em; }
+.photo-frame-meta-pack .static-map p { margin: 1.5em 0.7em .5em; }
+.photo-frame-meta-pack .static-map a { color: rgb(31, 156, 252); text-decoration: underline; }
