@@ -572,12 +572,15 @@
 			
 				$.each(components, function(css, array) {
 					$.each(array, function(i, component) {
+
 						if(typeof component == "function") {
 							var _data = component(t);
 							
 							if(typeof _data == "object") {
-								$.each(_data, function(x, obj) {	
-									t.addData(css, obj[0], obj[1]);
+								$.each(_data, function(x, obj) {
+									if(obj) {
+										t.addData(css, obj[0], obj[1]);
+									}
 								});
 							}
 						}
